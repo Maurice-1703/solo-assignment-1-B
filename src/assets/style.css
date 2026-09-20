@@ -1,0 +1,19 @@
+:root {
+  --indigo-100: rgb(197, 196, 242);
+  --indigo-300: rgb(110, 108, 224);
+  --indigo-600: rgb(44, 41, 193);
+  --indigo-800: rgb(14, 13, 63);
+}
+
+body {
+  background-color: var(--indigo-100);
+  color: var(--indigo-800);
+  font-family: system-ui, "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+}
