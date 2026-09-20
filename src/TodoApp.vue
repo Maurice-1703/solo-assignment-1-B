@@ -64,7 +64,7 @@ const visibleTodos = computed<Todo[]>(() => {                   // Argument: Arr
     <!-- "v-bind" für die Übergabe der Props (siehe Interface in TodoList.vue), hier das über computed() gefilterte Array -->
      <!-- Namenskonvention: im Template kebab-case (todo-list), im Skript camelCase (todoList)-->
     <!-- beide Event-Listener für "toggled" und "deleted", rufen die zugehörige Funktion auf -->
-      <!-- Argument (todo.id) wird von Vue automatisch bei Funktionsauruf weitergereicht -->
+      <!-- Argument (todo.id) wird von Vue automatisch bei Funktionsaufruf weitergereicht -->
     <todo-list v-bind:todo-list="visibleTodos" @toggled="toggleTodo" @deleted="deleteTodo"></todo-list>
 </template>
 
